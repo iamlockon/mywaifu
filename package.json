@@ -1,6 +1,7 @@
 {
   "name": "mae-chrochet-diary",
   "version": "0.1.0",
+  "homepage": "https://iamlockon.github.io/mywaifu",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -9,6 +10,7 @@
     "@mui/material": "^5.14.5",
     "axios": "^1.4.0",
     "dayjs": "^1.11.7",
+    "gh-pages": "^6.0.0",
     "jwt-decode": "^3.1.2",
     "jwt-encode": "^1.0.1",
     "miragejs": "^0.1.47",
@@ -27,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
