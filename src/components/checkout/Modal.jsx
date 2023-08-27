@@ -4,7 +4,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import spinningLoader from "../../assets/spinning-circles.svg";
 import OrderSummary from "./OrderSummary";
 import { useAuthContext, useCartContext } from "../../contexts";
-import appLogo from "../../assets/thugGlasses.png";
+import appLogo from "../../assets/site_icon.png";
 import { useNavigate } from "react-router";
 
 const Modal = ({ showModal, setShowModal }) => {

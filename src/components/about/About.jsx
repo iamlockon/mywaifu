@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 import './About.css';

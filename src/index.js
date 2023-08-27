@@ -7,6 +7,7 @@ import App from "./App";
 import { makeServer } from "./server";
 import {
   AuthContextProvider,
+  BlogContextProvider,
   CartContextProvider,
   ProductsContextProvider,
   WishlistContextProvider,
@@ -23,9 +24,11 @@ ReactDOM.render(
         <CartContextProvider>
           <WishlistContextProvider>
             <AboutContextProvider>
+              <BlogContextProvider>
               <Router>
                 <App />
               </Router>
+              </BlogContextProvider>
             </AboutContextProvider>
           </WishlistContextProvider>
         </CartContextProvider>

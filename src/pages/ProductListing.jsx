@@ -1,7 +1,7 @@
 import { BiFilter } from "react-icons/bi";
 import { MdKeyboardArrowUp } from "react-icons/md";
 
-import bannerImg from "../assets/bannerHero.jpg";
+import bannerImg from "../assets/front-view-yarn-basket-with-copy-space.jpg";
 import loadingGif from "../assets/loading.gif";
 
 import { Filters, SingleProduct, SortBy } from "../components";
@@ -59,11 +59,12 @@ const ProductListing = () => {
             <img
               src={bannerImg}
               alt="bannerImg"
-              className="rounded-md h-full min-h-[10rem] object-cover"
+              className="rounded-md h-full min-h-[10rem] object-cover aspect-[16/4]"
             />
+           <div className="flex justify-end">Image by<a className="px-2" href="https://www.freepik.com/free-photo/front-view-yarn-basket-with-copy-space_11630953.htm#query=crochet%20banner&position=27&from_view=keyword&track=ais">Freepik</a></div>
           </header>
           <section className="py-3 flex flex-col md:flex-row gap-2 justify-between">
-            <h1 className="text-2xl font-bold">Glasses for You!</h1>
+            <h1 className="text-2xl font-bold">Crochet Works for You!</h1>
             <div className="flex items-center gap-2">
               <Filters
                 isFilterOpen={isFilterOpen}

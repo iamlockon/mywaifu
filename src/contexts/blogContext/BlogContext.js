@@ -2,9 +2,9 @@ import React, { createContext, useState } from 'react'
 
 import { themeData } from '../../data/themeData.js'
 
-export const AboutContext = createContext()
+export const BlogContext = createContext()
 
-function AboutContextProvider(props) {
+function BlogContextProvider(props) {
     // eslint-disable-next-line
     const [theme, _] = useState(themeData.theme)
     const [drawerOpen, setDrawerOpen] = useState(false)
@@ -15,13 +15,13 @@ function AboutContextProvider(props) {
 
     const value = { theme, drawerOpen, setHandleDrawer }
     return (
-        <AboutContext.Provider value={value}>
+        <BlogContext.Provider value={value}>
             {props.children}
-        </AboutContext.Provider>
+        </BlogContext.Provider>
     )
 
     // #TODO: fetch from BE
 }
 
 
-export default AboutContextProvider
+export default BlogContextProvider

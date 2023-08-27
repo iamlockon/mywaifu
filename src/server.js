@@ -3,6 +3,9 @@ import {
   getAboutHandler
 } from "./backend/controllers/AboutController"
 import {
+  getBlogsHandler
+} from "./backend/controllers/BlogController.js"
+import {
   loginHandler,
   signupHandler,
 } from "./backend/controllers/AuthController";
@@ -66,6 +69,9 @@ export function makeServer({ environment = "development" } = {}) {
 
       // about
       this.get("/about", getAboutHandler.bind(this));
+
+      // about
+      this.get("/blogs", getBlogsHandler.bind(this));
 
       // products routes (public)
       this.get("/products", getAllProductsHandler.bind(this));

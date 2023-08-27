@@ -3,6 +3,9 @@ export { default as Login } from "./Login";
 
 export { default as Home } from "./Home";
 
+export { default as About } from "./About";
+export { default as Blog } from "./Blog";
+
 export { default as ProductListing } from "./ProductListing";
 export { default as ProductDetails } from "./ProductDetails";
 export { default as Cart } from "./Cart";

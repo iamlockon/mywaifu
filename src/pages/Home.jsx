@@ -5,8 +5,7 @@ const Home = () => {
   const catRef = useRef(null);
   return (
     <>
-      <Banner catRef={catRef} />
-      <Trending />
+      <Banner className="flex" catRef={catRef} />
       <CategoryList catRef={catRef} />
       <Footer />
     </>

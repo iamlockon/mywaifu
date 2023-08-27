@@ -7,7 +7,6 @@ const Checkbox = ({ data }) => {
   } = useProductsContext();
   const checkboxHandler = (e) => {
     let catArr = categories;
-
     if (e.target.checked) {
       catArr.push(e.target.value);
     } else {

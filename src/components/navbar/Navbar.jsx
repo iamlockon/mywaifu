@@ -57,7 +57,7 @@ const Navbar = () => {
 
           <Logo />
         </section>
-        <div className="hidden  sm:block sm:w-1/3 relative">
+        <div className="hidden sm:block sm:w-1/3 relative">
           <Search />
         </div>
 
@@ -70,8 +70,15 @@ const Navbar = () => {
             <MdOutlineGavel className="xs:hidden" />
           </Link>
           <Link
+            to="/blogs"
+            className="mx-2 px-3 py-1 bg-blue-300 rounded-md shadow-sm hover:bg-blue-400 transition"
+          >
+            <span className="hidden xs:block">Blog</span>{" "}
+            <MdOutlineGavel className="xs:hidden" />
+          </Link>
+          <Link
             to="/products"
-            className="mx-2 px-3 py-1 shadow-sm rounded-md text-white bg-yellow-700 text-sm hover:bg-grey-300 transition"
+            className="mx-2 px-3 py-1 shadow-sm rounded-md text-white bg-red-300 text-sm hover:bg-red-400 transition"
           >
             <span className="hidden xs:block">Explore</span>{" "}
             <MdOutlineExplore className="xs:hidden" />

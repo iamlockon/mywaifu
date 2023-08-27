@@ -5,6 +5,19 @@
   height: 73vh;
 }
 
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+
 .text-container {
   display: flex;
   justify-content: center;
@@ -15,7 +28,7 @@
 
 .letter {
   margin: 0 2px;
-  animation: wave 1.5s infinite;
+  animation: wave 0.5s infinite;
   animation-timing-function: linear;
 }
 
@@ -42,25 +55,73 @@
 }
 
 .letter:nth-child(2) {
-  animation-delay: 0.1s;
+  animation-delay: 0.05s;
 }
 
 .letter:nth-child(3) {
-  animation-delay: 0.2s;
+  animation-delay: 0.1s;
 }
 
 .letter:nth-child(4) {
-  animation-delay: 0.3s;
+  animation-delay: 0.15s;
 }
 
 .letter:nth-child(5) {
-  animation-delay: 0.4s;
+  animation-delay: 0.2s;
 }
 
 .letter:nth-child(6) {
-  animation-delay: 0.5s;
+  animation-delay: 0.25s;
 }
 
 .letter:nth-child(7) {
+  animation-delay: 0.3s;
+}
+
+.letter:nth-child(8) {
+  animation-delay: 0.35s;
+}
+
+.letter:nth-child(9) {
+  animation-delay: 0.4s;
+}
+
+.letter:nth-child(10) {
+  animation-delay: 0.45s;
+}
+
+.letter:nth-child(11) {
+  animation-delay: 0.5s;
+}
+
+.letter:nth-child(12) {
+  animation-delay: 0.55s;
+}
+
+.letter:nth-child(13) {
   animation-delay: 0.6s;
+}
+
+.letter:nth-child(14) {
+  animation-delay: 0.65s;
+}
+
+.letter:nth-child(15) {
+  animation-delay: 0.7s;
+}
+
+.letter:nth-child(16) {
+  animation-delay: 0.75s;
+}
+
+.letter:nth-child(17) {
+  animation-delay: 0.8s;
+}
+
+.letter:nth-child(18) {
+  animation-delay: 0.85s;
+}
+
+.letter:nth-child(19) {
+  animation-delay: 0.9s;
 }

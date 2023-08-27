@@ -6,6 +6,7 @@ import {
   SIGNUP_URL,
   WISHLIST_URL,
   CATEGORIES_URL,
+  ABOUT_URL
 } from "./apiUrls";
 
 export const loginService = (email, password) =>
@@ -13,6 +14,9 @@ export const loginService = (email, password) =>
 
 export const signupService = (username, email, password) =>
   axios.post(SIGNUP_URL, { username, email, password });
+
+
+export const aboutService = () => axios.get(ABOUT_URL);
 
 export const getAllProductsService = () => axios.get(PRODUCTS_URL);
 

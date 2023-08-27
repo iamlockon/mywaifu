@@ -73,6 +73,7 @@ const ProductsContextProvider = ({ children }) => {
   };
 
   const applyFilters = (filterType, filterValue) => {
+    console.log(filterValue)
     dispatch({
       type: filterTypes.FILTERS,
       payload: { filterType, filterValue },
