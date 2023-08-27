@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mywaifu/static/css/main.2fb03fe5.css",
+    "main.js": "/mywaifu/static/js/main.08a03cce.js",
+    "static/media/visionmod1.jpg": "/mywaifu/static/media/visionmod1.88377288a7084c28c6b4.jpg",
+    "static/media/front-view-yarn-basket-with-copy-space.jpg": "/mywaifu/static/media/front-view-yarn-basket-with-copy-space.4d56f30c59c7d6602ba2.jpg",
+    "static/media/knitting-needles-wool-basket.jpg": "/mywaifu/static/media/knitting-needles-wool-basket.5f1d89cf8d07c87d0bb3.jpg",
+    "static/media/bio.jpg": "/mywaifu/static/media/bio.b9216aec93091d531058.jpg",
+    "static/media/success-order.gif": "/mywaifu/static/media/success-order.b29f5f45859966c00add.gif",
+    "static/media/placeholder.png": "/mywaifu/static/media/placeholder.3fcbbdcd05f3e458d129.png",
+    "static/media/bannerHero.jpg": "/mywaifu/static/media/bannerHero.b913ee7a0754b4966295.jpg",
+    "static/media/banner_home.jpg": "/mywaifu/static/media/banner_home.db31a1c272cfb597b549.jpg",
+    "static/media/empty-wish.gif": "/mywaifu/static/media/empty-wish.5af0d55ffd0f31b86c32.gif",
+    "static/media/404-error.gif": "/mywaifu/static/media/404-error.da861bcb12b024818a5b.gif",
+    "static/media/loading.gif": "/mywaifu/static/media/loading.0c1a94b4d4fd5b5268e8.gif",
+    "static/media/redTheme-girl.svg": "/mywaifu/static/media/redTheme-girl.e2b9dd836e8fa524c746a6b7dbcea537.svg",
+    "static/media/loaderBlack.svg": "/mywaifu/static/media/loaderBlack.3f75985009684d059bae0d73b1042027.svg",
+    "static/media/spinning-circles.svg": "/mywaifu/static/media/spinning-circles.4beb16fefd30580869ff5d7feb7a52ce.svg",
+    "index.html": "/mywaifu/index.html",
+    "main.2fb03fe5.css.map": "/mywaifu/static/css/main.2fb03fe5.css.map",
+    "main.08a03cce.js.map": "/mywaifu/static/js/main.08a03cce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fb03fe5.css",
+    "static/js/main.08a03cce.js"
+  ]
+}
