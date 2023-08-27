@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mywaifu/static/css/main.2fb03fe5.css",
-    "main.js": "/mywaifu/static/js/main.08a03cce.js",
+    "main.js": "/mywaifu/static/js/main.d35cee81.js",
     "static/media/visionmod1.jpg": "/mywaifu/static/media/visionmod1.88377288a7084c28c6b4.jpg",
     "static/media/front-view-yarn-basket-with-copy-space.jpg": "/mywaifu/static/media/front-view-yarn-basket-with-copy-space.4d56f30c59c7d6602ba2.jpg",
     "static/media/knitting-needles-wool-basket.jpg": "/mywaifu/static/media/knitting-needles-wool-basket.5f1d89cf8d07c87d0bb3.jpg",
@@ -18,10 +18,10 @@
     "static/media/spinning-circles.svg": "/mywaifu/static/media/spinning-circles.4beb16fefd30580869ff5d7feb7a52ce.svg",
     "index.html": "/mywaifu/index.html",
     "main.2fb03fe5.css.map": "/mywaifu/static/css/main.2fb03fe5.css.map",
-    "main.08a03cce.js.map": "/mywaifu/static/js/main.08a03cce.js.map"
+    "main.d35cee81.js.map": "/mywaifu/static/js/main.d35cee81.js.map"
   },
   "entrypoints": [
     "static/css/main.2fb03fe5.css",
-    "static/js/main.08a03cce.js"
+    "static/js/main.d35cee81.js"
   ]
 }
