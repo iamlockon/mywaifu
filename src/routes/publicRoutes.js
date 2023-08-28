@@ -14,7 +14,7 @@ const authRoutes = [
 ];
 
 const contentRoutes = [
-    {
+  {
     path: "/about",
     element: <About />,
   },

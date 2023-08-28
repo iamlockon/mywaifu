@@ -32,7 +32,6 @@ const Index = () => {
       </Route>
       <Route element={<SharedLayout />}>
         <Route path="/" element={<Home />} index />
-        <Route path="*" element={<ErrorPage />} />
         {contentRoutes.map((route, idx) => (
           <Route key={idx} path={route.path} element={route.element} />
         ))}
